@@ -229,7 +229,6 @@ body {
 	width: 900px;
 	margin: 0 auto;
 	height: 1205px;
-	
 }
 a, span {
 	position: absolute;
@@ -263,10 +262,35 @@ span a {
 	left: 0px;
 	width: 500px;
 }
+#therandomlanguage {
+	top: 530px;
+	left: 500px;
+	display: none;
+	width: 300px;
+	background: #fff;
+	text-align: center;
+	box-shadow: 10px 10px 10px #000;
+	text-decoration: none;
+}
+#therandomlanguage:hover {
+	box-shadow: none;
+	margin-top: 5px;
+	margin-left: 5px;
+}
 #randomidea {
 	top: 640px;
 	left: 0px;
 	width: 500px;
+}
+#therandomidea {
+	top: 640px;
+	left: 400px;
+	display: none;
+	width: 450px;
+	background: #fff;
+	text-align: center;
+	box-shadow: 10px 10px 10px #000;
+	text-decoration: none;
 }
 #location {
 	top: 710px;
@@ -283,7 +307,7 @@ span a {
 #register {
 	top: 970px;
 	left: 200px;
-	width: 400px;
+	width: 500px;
 	text-align: center;
 	background: #FEFE06;
 }
