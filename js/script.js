@@ -76,6 +76,10 @@ $(document).ready(function(){
 		{
 			name: "Node.js",
 			url: "http://nodejs.org/"
+		},
+		{
+			name: "Sencha",
+			url: "http://www.sencha.com/"
 		}
 	];
 	var ideas = [
