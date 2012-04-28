@@ -87,7 +87,8 @@ $(document).ready(function(){
 		"To-Do List",
 		"Address Book",
 		"Nickname Generator",
-		"Text-Based RPG",
+	"Anagram Solver",
+	"Text-Based RPG",
 		"Password Generator"
 	];
 	$("#randomlanguage").click(function(){
