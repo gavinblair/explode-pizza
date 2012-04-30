@@ -229,6 +229,7 @@ body {
 	width: 900px;
 	margin: 0 auto;
 	height: 1205px;
+	margin-bottom: 50px;
 }
 a, span {
 	position: absolute;
@@ -305,21 +306,21 @@ span a {
 	background: #FEFE06;
 }
 #register {
-	top: 970px;
+	top: 955px;
 	left: 200px;
 	width: 500px;
 	text-align: center;
 	background: #FEFE06;
 }
 #sponsor {
-	top: 1100px;
-	left: 000px;
-	width: 600px;
+	top: 1020px;
+	left: 250px;
+	width: 400px;
+	height: 145px;
 	text-align: center;
-	background: #FEFE06;
-	font-size: 20px
+	font-size: 20px;
 }
-#register:hover, #sponsor:hover {
+#register:hover {
 	background: limegreen;
 }
 #ignited {
