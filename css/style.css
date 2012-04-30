@@ -219,12 +219,13 @@ td { vertical-align: top; }
    ========================================================================== */
 
 body {
-	background: url(../img/poster.jpg) top center no-repeat;
-	height: 100%;
+	/*background: url(../img/poster.jpg) top center no-repeat;
+	*/height: 100%;
 	width: 100%;
 }
 
 #container {
+background: url(../img/poster.jpg) top center no-repeat;
 	position: relative;
 	width: 900px;
 	margin: 0 auto;
