@@ -80,6 +80,14 @@ $(document).ready(function(){
 		{
 			name: "Sencha",
 			url: "http://www.sencha.com/"
+		},
+		{
+			name: "Flash",
+			url: "http://www.adobe.com/devnet/flash.html"
+		},
+		{
+			name: "Processing",
+			url: "http://processing.org/"
 		}
 	];
 	var ideas = [
@@ -87,9 +95,10 @@ $(document).ready(function(){
 		"To-Do List",
 		"Address Book",
 		"Nickname Generator",
-	"Anagram Solver",
-	"Text-Based RPG",
-		"Password Generator"
+		"Anagram Solver",
+		"Text-Based RPG",
+		"Password Generator",
+		"Elevator Simulator"
 	];
 	$("#randomlanguage").click(function(){
 		var language = languages[Math.floor(Math.random()*languages.length)];
