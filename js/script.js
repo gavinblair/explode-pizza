@@ -88,6 +88,10 @@ $(document).ready(function(){
 		{
 			name: "Processing",
 			url: "http://processing.org/"
+		},
+		{
+			name: "Codea",
+			url: "http://twolivesleft.com/Codea/"
 		}
 	];
 	var ideas = [
@@ -100,20 +104,30 @@ $(document).ready(function(){
 		"Password Generator",
 		"Elevator Simulator"
 	];
+	var l = Math.floor(Math.random()*languages.length);
 	$("#randomlanguage").click(function(){
-		var language = languages[Math.floor(Math.random()*languages.length)];
+		var language = languages[l];
 		$("#therandomlanguage").fadeOut('slow', function(){
 			$("#therandomlanguage").text(language.name);
 			$("#therandomlanguage").attr("href", language.url);
 			$("#therandomlanguage").fadeIn('slow');
 		});
+		l++;
+		if(l > languages.length-1) {
+			l = 0;
+		}
 	});
+	var i = Math.floor(Math.random()*ideas.length);
 	$("#randomidea").click(function(){
-		var idea = ideas[Math.floor(Math.random()*ideas.length)];
+		var idea = ideas[i];
 		$("#therandomidea").fadeOut('slow', function(){
 			$("#therandomidea").text(idea);
 			$("#therandomidea").fadeIn('slow');
 		});
+		i++;
+		if(i > ideas.length-1) {
+			i = 0;
+		}
 	});
 });
 
